@@ -1,0 +1,198 @@
+<%- include("partials/header") -%>
+<!-- CSS custom link -->
+<link rel="stylesheet" href="css/home.css">
+  <body>
+    <form action="/" method="post">
+
+        <!-- title section -->
+        <section id="title">
+          <div class="container fluid">
+            <div class="navbar navbar-expand-lg navbar-dark bg-#789395">
+              <a href="#" class="navbar-brand"><i class="fa-brands fa-asymmetrik"></i> mandala</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item"> <a href="#middle" class="nav-link"> About </a> </li>
+                  <li class="nav-item"> <a href="#photos" class="nav-link"> Photos </a> </li>
+                  <li class="nav-item"> <a href="#column" class="nav-link"> More </a> </li>
+                  <li class="nav-item"> <a href="#bottom" class="nav-link"> Contact </a> </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- top section -->
+        <section id="top">
+          <div class="masthead" style="background-image:url('images/background/colored2.jpg');">
+            <div class="color-overlay d-flex justify-content-center align-items-center">
+              <h1>AK mandala art</h1>
+            </div>
+          </div>
+        </section>
+
+        <!-- column section -->
+        <section id="column">
+
+          <div class="row">
+
+            <div class="col-lg-4 col-md-4">
+              <button type="submit" name="button" value="toppickbtn" class="btn"><i class="fa-solid fa-fire colicon"></i></button>
+              <h2 class="colheading">Top picks</h2>
+              <p class="colpara">Check this out✅</p>
+            </div>
+
+            <div class="col-lg-4 col-md-4">
+              <button type="submit" name="button"  value="learnbtn" class="btn"><i class="fa-solid fa-pen-ruler colicon"></i></button>
+              <h2 class="colheading">Learn</h2>
+              <p class="colpara">learn mandala art📗</p>
+            </div>
+
+            <div class="col-lg-4 col-md-4">
+              <button type="submit" name="button"  value="buybtn" class="btn"><i class="fa-solid fa-bag-shopping colicon"></i></button>
+              <h2 class="colheading">Buy</h2>
+              <p class="colpara">Get yours now!💚</p>
+            </div>
+
+          </div>
+
+        </section>
+
+        <!-- middle section -->
+        <section id="middle">
+
+          <div id="middle-carousel" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#middle-indicators" data-bs-slide-to="0" aria-label="slide 0" aria-current="true" class="active"> </button>
+              <button type="button" data-bs-target="#middle-indicators" data-bs-slide-to="1" aria-label="slide 1"> </button>
+              <button type="button" data-bs-target="#middle-indicators" data-bs-slide-to="2" aria-label="slide 2"> </button>
+            </div>
+            <div class="carousel-inner">
+
+              <div class="carousel-item active">
+                <img class="middleimg" src="images/middlesection/dance2.jpg" alt="dancinggirl">
+                <div class="carousel-caption d-md-block">
+                  <h1 class="midheading">Dancing doll</h1>
+                  <p class="midpara1">Mandala simply means “center and surroundings”.
+                    That is what we see in a mandala – a circle that contains a square…
+                    The practice of a mandala is simply to place ourselves in the middle of it and,
+                    learn to relate with the social structure and atmosphere around us as a sacred environment.</p>
+                  <p class="midpara2">— Dzogchen Ponlop Rinpoche</p>
+                </div>
+              </div>
+              <div class="carousel-item ">
+                <img class="middleimg" src="images/middlesection/peacock1.jpg" alt="peacock">
+                <div class="carousel-caption d-md-block">
+                  <h1 class="midheading">Peacock</h1>
+                  <p class="midpara1">The center of the mandala is where all our stories are gradually extinguished,
+                    and where, in the immediacy of the moment, all feelings can be held and experienced in their purity.
+                    In this experience, we grow in spaciousness.</p>
+                  <p class="midpara2">— Richard Moss</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="middleimg" src="images/middlesection/flyingbird22.jpg" alt="flyingbird">
+                <div class="carousel-caption d-md-block">
+                  <h1 class="midheading">Beautiful bird</h1>
+                  <p class="midpara1">Each person’s life is like a mandala – a vast, limitless circle.
+                    We stand in the center of our own circle, and everything we see, hear and think forms the mandala of our life.</p>
+                  <p class="midpara2">— Pema Chödrön</p>
+                </div>
+              </div>
+            </div>
+            <button type="button" class="carousel-control-prev" data-bs-target="#middle-carousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button type="button" class="carousel-control-next" data-bs-target="#middle-carousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+          </div>
+
+        </section>
+
+        <!-- card section -->
+        <section id="card-section">
+
+          <div class="row">
+
+            <div class="col-lg-6 col-md-6">
+              <div class="card">
+                <div class="card-body">
+                  <img class="cardimg1" src="images/cardsection/card1.jpg" alt="card1">
+                </div>
+                <div class="card-footer">
+                  <a href="colored.html">
+                    <button type="submit" name="button" value="coloredbtn" class="btn w-100 btn-lg btn-lg btn-dark btn-outline-light"> colored </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+              <div class="card">
+                <div class="card-body">
+                  <img class="cardimg2" src="images/cardsection/card2.jpg" alt="card2">
+                </div>
+                <div class="card-footer">
+                  <a href="black&white.html">
+                    <button type="submit" name="button" value="blackwhitebtn" class="btn w-100 btn-lg btn-dark btn-outline-light">black&white</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </section>
+
+        <!-- photos section -->
+        <section id="photos">
+
+          <div class="container fluid">
+
+            <div class="row">
+              <div class="col-lg-4 col-md-4 temp">
+                <img src="images/photossection/dance1.jpg" alt="dancinggirl mandala" class="photosimg">
+              </div>
+              <div class="col-lg-4 col-md-4 temp">
+                <img src="images/photossection/canvas3.jpg" alt="canvas" class="photosimg">
+              </div>
+              <div class="col-lg-4 col-md-4 temp">
+                <img src="images/photossection/krishna1.jpg" alt="krishna mandala" class="photosimg">
+              </div>
+              <div class="col-lg-4 col-md-4 temp">
+                <img src="images/photossection/canvas.jpg" alt="canvas" class="photosimg">
+              </div>
+              <div class="col-lg-4 col-md-4 temp">
+                <img src="images/photossection/mahadev2.jpg" alt="mahadev mandala" class="photosimg">
+              </div>
+              <div class="col-lg-4 col-md-4 temp">
+                <img src="images/photossection/canvas22.jpg" alt="canvas" class="photosimg">
+              </div>
+              <div class="col-lg-4 col-md-4 temp">
+                <img src="images/photossection/skeleton.jpg" alt="skelsnake mandala" class="photosimg">
+              </div>
+              <div class="col-lg-4 col-md-4 temp">
+                <img src="images/photossection/canvas4.jpg" alt="canvas" class="photosimg">
+              </div>
+              <div class="col-lg-4 col-md-4 temp">
+                <img src="images/photossection\f2.jpg" alt="india mandala" class="photosimg">
+              </div>
+            </div>
+
+          </div>
+
+        </section>
+
+        <!-- bottom section -->
+        <section id="bottom">
+          <a class="bottomlink" href="https://github.com/ankita9690"><i class="bottomicon fa-brands fa-github"></i></a>
+          <a class="bottomlink" href="https://www.linkedin.com/in/ankita-kundliya-5ba21120b/"><i class="bottomicon fa-brands fa-linkedin"></i></a>
+          <a class="bottomlink" href="mailto:ankita2kundliya@gmail.com"><i class="bottomicon fa-solid fa-envelope-circle-check"></i></a>
+          <a class="up" href="#title"> <i class="fa-solid fa-circle-up"></i> </a>
+          <p class="bottompara">© 2022 ankita kundliya</p>
+
+    </form>
+  </body>
+<%- include("partials/footer") -%>

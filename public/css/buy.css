@@ -1,0 +1,39 @@
+body{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #78C1F3;
+}
+div,h5{
+  margin: 4%;
+  font-weight: bold;
+}
+h1{
+  font-weight: bold;
+}
+.container{
+  box-shadow: 4px 4px 20px 8px black;
+  width: 36%;
+  text-align: center;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 25px;;
+  padding: 2%;
+  margin-top: 10%;
+}
+@media only screen and (max-width: 480px){
+h2{
+  font-size: 30px;
+}
+p{
+  font-size: 20px;
+}
+.container{
+    box-shadow: 4px 4px 20px 8px black;
+  width: 80%;
+  text-align: center;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 25px;;
+  padding: 5%;
+  margin-top: 10%;
+}
+}
